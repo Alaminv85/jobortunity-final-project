@@ -1,0 +1,21 @@
+#banner-part {
+    width: 100%;
+    background: #fef8ff;
+
+    .details {
+        h2 {
+            font-size: 60px;
+            font-family: 'Abril Fatface', cursive;
+            color: #222;
+            padding-top: 100px;
+        }
+        p{
+            font-size: 18px;
+    color: #444444;
+    font-family: 'Arimo', sans-serif;
+    width: 560px;
+    line-height: 30px;
+    padding-bottom: 220px;
+        }
+    }
+}

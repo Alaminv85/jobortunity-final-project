@@ -1,0 +1,84 @@
+#partner-part {
+    margin-bottom: 80px;
+
+    .counter-part {
+        display: flex;
+
+        .counter-item {
+            width: 48%;
+            padding: 35px 0px;
+            text-align: center;
+            /* border-right: 1px solid #ddd;
+            border-bottom: 1px solid #ddd; */
+            font-family: 'Abril Fatface', cursive;
+            font-size: 24px;
+            color: #222;
+            position: relative;
+
+            .counter-num {
+                font-size: 46px;
+            }
+        }
+
+        .item-border-1 {
+
+            &::after {
+                width: 2px;
+                height: 60%;
+                background: #ddd;
+                content: "";
+                position: absolute;
+
+                bottom: 0;
+                right: 0;
+            }
+
+            &::before {
+                width: 50%;
+                height: 2px;
+                background: #ddd;
+                content: "";
+                position: absolute;
+                bottom: 0;
+                right: 0;
+            }
+        }
+
+        .item-border-4 {
+            &::after {
+                width: 2px;
+                height: 60%;
+                background: #ddd;
+                content: "";
+                position: absolute;
+                top: 0;
+                left: -2px;
+            }
+
+            &::before {
+                width: 50%;
+                height: 2px;
+                background: #ddd;
+                content: "";
+                position: absolute;
+                top: -2px;
+                left: 0;
+            }
+        }
+    }
+    .partner{
+        display: flex;
+        justify-content: space-between;
+        &:first-child {
+            margin-top: 50px;
+        }
+
+        .pertner-item {
+            width: 46%;
+            border: 1px solid #ddd;
+            padding: 30px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+    }
+}

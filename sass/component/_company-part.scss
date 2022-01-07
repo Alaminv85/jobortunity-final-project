@@ -1,0 +1,162 @@
+#company-part {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 60px;
+
+    .title {
+        background: #fef8ff;
+        padding-bottom: 50px;
+        margin-bottom: 0px;
+
+        h2 {
+            &::after {
+                display: none;
+            }
+        }
+
+        p {
+            margin-top: 0px;
+        }
+    }
+
+    .company-details {
+        margin-top: 80px;
+
+        h2 {
+            font-family: 'Abril Fatface', cursive;
+            color: #222;
+            font-size: 26px;
+            margin-bottom: 30px;
+        }
+
+        p {
+            font-family: 'Arimo', sans-serif;
+            font-size: 16px;
+            color: #444;
+            line-height: 30px;
+            margin-bottom: 30px;
+            padding-right: 20px;
+        }
+
+        ul {
+            li {
+                font-family: 'Arimo', sans-serif;
+                font-size: 16px;
+                color: #444;
+                margin-bottom: 26px;
+                padding-right: 20px;
+                line-height: 26px;
+
+                i {
+                    margin-right: 16px;
+                }
+            }
+        }
+    }
+
+    .company-right-side {
+        text-align: center;
+        margin-top: 80px;
+        box-shadow: 0px 0px 10px 2px #dddddda3;
+
+        .profile {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+
+            .img {
+                height: 200px;
+                width: 200px;
+                background: #ddd;
+            }
+        }
+
+        h3 {
+            font-family: 'Abril Fatface', cursive;
+            font-size: 24px;
+            padding-top: 10px;
+        }
+
+        .location {
+            margin-top: 35px;
+            font-family: 'Arimo', sans-serif;
+            font-size: 16px;
+
+            p {
+                font-size: 16px;
+                color: #444;
+                line-height: 30px;
+
+                i {
+                    margin-right: 15px;
+                }
+            }
+        }
+
+        .icon {
+            margin-top: 15px;
+            border-bottom: 1px solid #f1f1f1;
+            padding-bottom: 30px;
+
+            i {
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+                border: 1px solid #ddd;
+                margin: 8px;
+                color: #999;
+                transition: .4s;
+
+                &:hover {
+                    background: #07baf0;
+                    border-color: #07baf0;
+                    color: #fff;
+                    cursor: pointer;
+                }
+            }
+        }
+        .details {
+            padding: 0px 25px;
+            text-align: left;
+            font-family: 'Arimo', sans-serif;
+            font-size: 16px;
+            margin-top: 50px;
+            color: #444;
+
+            .name {
+                width: 30%;
+                margin-bottom: 25px;
+            }
+            .simble {
+                width: 12%;
+            }
+            .text {
+                width: 53%;
+            }
+        }
+        .left {
+            text-align: left;
+            padding: 0px 25px;
+            border-bottom: 0px;
+            span {
+                color: #444;
+                font-family: 'Arimo', sans-serif;
+            }
+        }
+        .details-map {
+            color: #444;
+            font-family: 'Arimo', sans-serif;
+            text-align: left;
+            padding: 0px 25px;
+            font-size: 16px;
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+        .profile-bottom {
+            width: 100%;
+            height: 250px;
+            background: #ccc;
+        }
+    }
+}

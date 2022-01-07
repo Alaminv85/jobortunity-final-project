@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+p {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.title h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    font-weight: 400;
+    position: relative;
+}
+
+.title p {
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;
+    padding: 0px 340px;
+    margin-top: 50px;
+}
+
+.title h2::after {
+    content: "";
+    position: absolute;
+    top: 62px;
+    left: 50%;
+    background: #07baf0;
+    width: 60px;
+    height: 5px;
+    border-radius: 15px;
+    transform: translate(-50%, -50%);
+}

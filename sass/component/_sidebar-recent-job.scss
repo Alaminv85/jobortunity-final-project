@@ -1,0 +1,247 @@
+#jobs-sidebar-part {
+    width: 100%;
+    margin: 80px 0px;
+    .sidebar-jobs {
+        width: 100%;
+
+        .sidebar {
+            .sidebar-checkbox {
+
+                .sidbar-margin {
+                    margin-top: 30px;
+                }
+
+                h2 {
+                    font-size: 20px;
+                    font-family: 'Arimo', sans-serif;
+                    color: #222;
+                    margin-bottom: 35px;
+                }
+
+                .checkbox-1 {
+                    .text {
+                        color: #999 !important;
+                        font-size: 16px;
+                        font-family: 'Arimo', sans-serif;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+
+            .sidebar-range {
+                h2 {
+                    font-size: 20px;
+                    font-family: 'Arimo', sans-serif;
+                    color: #222;
+                    margin-bottom: 20px;
+                    margin-top: 20px;
+                }
+
+                form {
+                    input {
+                        width: 100%;
+                        margin-bottom: -10px;
+                    }
+
+                    span {
+                        font-size: 22px;
+                        font-family: 'Arimo', sans-serif;
+                        font-weight: 400;
+                        margin-right: 7px;
+                        color: #444;
+                    }
+
+                    output {
+                        font-family: 'Arimo', sans-serif;
+                        font-size: 18px;
+                        color: #444;
+                    }
+                }
+            }
+
+        }
+
+        .jobs-details {
+            .accordion-body{
+                padding: 0px !important;
+            }
+            .job-input {
+                width: 100%;
+                padding: 11px 18px;
+                border: 1px solid #ced4da;
+                border-radius: 5px;
+            }
+            .wrapper{
+                .form1 {
+                    color: #bbb;
+                }
+            }
+            .form-2 {
+                margin: 5px 0px;
+                margin-bottom: 55px;
+
+                .form-check {
+                    margin-right: 20px;
+                    .text {
+                        font-family: 'Arimo', sans-serif;
+                        font-size: 16px;
+                        color: #999;
+                    }
+                }
+            }
+            .jobs-wrapper {
+                .jobs-item {
+                    display: flex;
+                    padding: 15px;
+                    background: #f5f5f5;
+                    margin-bottom: 28px;
+                    transition: .4s;
+                    &:hover {
+                        background: #07baf0;
+                        color: #fff !important;
+                        .details{
+                            h4 {
+                                color: #fff !important;
+                            }
+                            h5 {
+                                color: #fff !important;
+                            }
+                            p {
+                                color: #fff !important;
+                            }
+                            .location{
+                                span{
+                                    color: #fff;
+                                }
+                                i{
+                                    color: #fff;
+                                }
+                            }
+                        }
+                        .amount{
+                            span{
+                                color: #fff;
+                            }
+                        }
+                        .text{
+                            .job-button{
+                                background: #fff;
+                                color: #07baf0;
+                                
+                            }
+                        }
+                    }
+
+                    .profile {
+                        width: 100px;
+                        height: 100px;
+                        background: #ddd;
+                        margin-right: 30px;
+                    }
+
+                    .details {
+                        width: 43%;
+                        align-self: center;
+
+                        h5 {
+                            font-size: 16px;
+                            font-family: 'Arimo', sans-serif;
+                            color: #07baf0;
+                            transition: .4s;
+                        }
+
+                        p {
+                            font-family: 'Arimo', sans-serif;
+                            font-size: 20px;
+                            color: #222;
+                            margin-top: -6px;
+                            margin-bottom: 3px;
+                            transition: .4s;
+                        }
+
+                        h4 {
+                            font-family: 'Arimo', sans-serif;
+                            font-size: 16px;
+                            margin: 0;
+                            color: #444;
+                            transition: .4s;
+                            display: inline-block;
+                        }
+
+                        .location {
+                            display: inline-block;
+                            margin-left: 30px;
+
+                            i {
+                                margin-right: 8px;
+                                color: #444;
+                                transition: .4s;
+                            }
+
+                            span {
+                                color: #444;
+                                font-family: 'Arimo', sans-serif;
+                                font-size: 16px;
+                                transition: .4s;
+                            }
+                        }
+                    }
+
+                    .amount {
+                        width: 23%;
+                        align-self: center;
+
+                        span {
+                            color: #444;
+                            font-family: 'Arimo', sans-serif;
+                            font-size: 16px;
+                            transition: .4s;
+                        }
+                    }
+
+                    .text {
+                        width: 20%;
+                        align-self: center;
+                        text-align: right;
+
+                        .job-button {
+                            background: #07baf0;
+                            color: #fff;
+                            font-size: 20px;
+                            text-transform: capitalize;
+                            font-family: 'Arimo', sans-serif;
+                            padding: 8px 35px;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+
+    .jobs-middle {
+        margin-top: 50px;
+        color: #444;
+
+        .browse {
+            text-align: right;
+
+            .job-button {
+                padding: 8px 15px !important;
+                background: #07baf0;
+                color: #fff;
+                font-size: 20px;
+                text-transform: capitalize;
+                font-family: 'Arimo', sans-serif;
+
+                &:hover {
+                    background: #fff !important;
+                    color: #07baf0 !important;
+                    border: 1px solid #07baf0;
+                }
+            }
+
+        }
+    }
+
+}

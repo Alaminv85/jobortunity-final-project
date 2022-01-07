@@ -1,0 +1,83 @@
+#accordion {
+    padding-bottom: 200px;
+    margin-top: -56px;
+
+    #accordionExample {
+        position: relative;
+    }
+
+    .accordion {
+
+        .accordion-item {
+            display: inline-block;
+            background: transparent;
+            border: none;
+
+            h2 {
+
+                .accordion-button {
+                    background: #07baf0;
+                    color: #fff;
+                    border-top-right-radius: 6px;
+                    border-top-left-radius: 6px;
+                }
+
+                .collapsed {
+                    background: #fef8ff !important;
+                    color: #444 !important;
+                }
+
+                button {
+
+                    font-size: 20px;
+                    padding: 15px 30px;
+                    border: none !important;
+
+                    &::after {
+                        display: none;
+                    }
+                }
+            }
+
+            .details {
+                position: absolute;
+                /* top: 0; */
+                left: 0;
+                width: 100%;
+
+                .accordion-body {
+                    padding: 20px 20px;
+                    box-shadow: 0px 0px 20px 0px rgba(210, 210, 210, 0.75);
+
+
+                    .job-button {
+                        background: #07baf0;
+                        color: #fff;
+                        font-size: 20px;
+                        text-transform: capitalize;
+                        font-family: 'Arimo', sans-serif;
+                        padding: 8px 23px;
+
+                        &:after {
+                            display: none;
+                        }
+                    }
+
+                    .job-input {
+                        width: 100% !important;
+                        padding: 11px 18px;
+                        border: 1px solid #ced4da;
+                        border-radius: 5px;
+                    }
+
+                    .wrapper {
+
+                        .form1 {
+                            color: #bbb;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

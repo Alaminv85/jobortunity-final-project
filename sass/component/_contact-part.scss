@@ -1,0 +1,81 @@
+#contact-part{
+    width: 100%;
+    padding-bottom: 60px;
+    .title {
+        background: #fef8ff;
+        padding-bottom: 50px;
+        margin-bottom: 0px;
+        h2{
+            &::after {
+                display: none;
+            }
+        }
+        p {
+            margin-top: 0px;
+        }
+    }
+    .left-details {
+        width: 100%;
+        margin-top: 90px;
+
+        .item {
+            display: flex;
+            margin-bottom: 50px;
+            .icon {
+                width: 20%;
+                i {
+                    width: 70px;
+                    height: 70px;
+                    text-align: center;
+                    line-height: 70px;
+                    background: #07baf0;
+                    border-radius: 50%;
+                    color: #fff;
+                    font-size: 28px;
+                }
+            }
+            .details {
+                width: 75%;
+                align-self: center;
+                p {
+                    font-size: 18px;
+                    color: #444;
+                    font-family: 'Arimo', sans-serif;
+                    width: 310px;
+                }
+            }
+        }
+    }
+    .right-form {
+        margin-top: 90px;
+
+        form{
+            .inputs {
+                display: flex;
+                justify-content: space-between;
+                input {
+                    width: 49%;
+                    padding: 15px 20px;
+                    margin-bottom: 10px;
+                }
+            }
+            textarea {
+                width: 100%;
+                height: 180px;
+                padding: 20px;
+            }
+            button {
+                padding: 15px 35px;
+                background: #07baf0;
+                color: #fff;
+                font-size: 20px;
+                text-transform: capitalize;
+                font-family: 'Arimo', sans-serif;
+                border-radius: 5px;
+                border: 1px solid #07baf0;
+                width: 100%;
+                margin-top: 15px;
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+#page-404 {
+    width: 100%;
+    padding-bottom: 60px;
+
+    .title {
+        background: #fef8ff;
+        padding-bottom: 50px;
+        margin-bottom: 0px;
+
+        h2 {
+            &::after {
+                display: none;
+            }
+        }
+
+        p {
+            margin-top: 0px;
+        }
+    }
+
+    .img {
+        background: url(../images/404-banner.png) center no-repeat;
+        padding: 240px 0px;
+        background-size: contain;
+        margin: 30px 0px;
+
+        p {
+            font-family: 'Abril Fatface', cursive;
+            font-size: 60px;
+            font-weight: 400;
+            text-align: center;
+            color: #374852;
+            margin-bottom: 50px;
+        }
+    }
+
+    .button {
+        text-align: center;
+        margin-top: 50px;
+
+        a {
+            padding: 15px 30px;
+            background: #07baf0;
+            color: #fff;
+            font-size: 20px;
+            text-transform: capitalize;
+            font-family: 'Arimo', sans-serif;
+            border-radius: 5px;
+        }
+    }
+}

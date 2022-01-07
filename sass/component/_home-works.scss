@@ -1,0 +1,40 @@
+#works-part {
+    background: #f5f5f5;
+    padding: 60px 0px;
+    margin-top: 80px;
+
+    .details {
+        text-align: center;
+        &:hover .round{
+            background-color: #07baf0 !important;
+            box-shadow: 0px 0px 23px 2px #07baf096 !important;
+        }
+
+        .icon{
+
+            .round {
+                width: 120px;
+                margin: 0 auto;
+                background: #fff;
+                padding: 0px;
+                line-height: 110px;
+                transition: 1s;
+                box-shadow: 0px 0px 23px 2px #ddd;
+                border-right: 5px;
+            }
+        }
+        h4 {
+            font-family: 'Abril Fatface', cursive;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        p {
+            font-family: 'Arimo', sans-serif;
+            font-size: 16px;
+            color: #444;
+            margin-top: 22px;
+            line-height: 28px;
+            padding: 8px 50px;
+        }
+    }
+}
